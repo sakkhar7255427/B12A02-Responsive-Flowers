@@ -409,8 +409,9 @@ span{
         text-align: left;
     }
     .cards-container {
+        display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-gap: 12px;
+        grid-gap: 1rem;
     }
     .lover-container {
         flex-direction: column;
@@ -540,7 +541,7 @@ span{
         font-size: 16px;
     }
     .cards-container {
-        grid-template-columns: 1fr;
+        grid-template-columns:repeat(2, 1fr);
         grid-gap: 12px;
     }
 
