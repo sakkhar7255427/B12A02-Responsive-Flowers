@@ -410,10 +410,6 @@ span{
     }
     .cards-container {
         display: grid;
-        justify-content: center;
-        align-items: center;
-        margin: 29.5px 15px 28.5px 16px;
-        width: 100%;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 1rem;
     }
